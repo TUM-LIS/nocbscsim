@@ -35,6 +35,7 @@ clc;    % clear screen for conosle ouput
 
 %% --- compute the routes using xy-routing;
 tic;
+disp('routes');
 N = 8;              % number of routers per column and row (N-by-N 2D-mesh)
 numRouters = N^2;   % total number of routers
 
@@ -170,6 +171,7 @@ tBg = toc;
 
 
 %% --- result file generation: hops
+disp('hop plot');
 fid = fopen('hop_analytic.plot', 'w+');
 
 % -- column headers
@@ -195,6 +197,7 @@ fclose(fid);
 
 
 %% --- result file generation: packetsize
+disp('packetsize plot');
 fid = fopen('packetsize_analytic.plot', 'w+');
 
 % -- column headers
