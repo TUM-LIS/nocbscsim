@@ -3,9 +3,9 @@
 This project models end-to-end packet error rates for Network-on-Chip (NoC).
 
 Contributers:
-Andreas Oeldemann (andreas.oeldemann@tum.de)
 Michael Vonbun (michael.vonbun@tum.de)
 Stefan Wallentowitz (stefan.wallentowitz@tum.de)
+Andreas Oeldemann (andreas.oeldemann@tum.de)
 
 For details on the model see:
 "An Analytic Approach on End-to-end Packet Error Rate Estimation for
